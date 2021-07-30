@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f530975fdbf80c504842459d3b961978" sys_domain="global" table="x_tori2_pool_leagu_leaderboard" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>doubles_team</element>
+            <position>0</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>5a76ff08db6e4410d04fa7c748961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player</element>
+            <position>1</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>de76ff08db6e4410d04fa7c748961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player_2</element>
+            <position>2</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>5676ff08db6e4410d04fa7c748961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>matches_played</element>
+            <position>3</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>da76ff08db6e4410d04fa7c748961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>5276ff08db6e4410d04fa7c748961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>losses</element>
+            <position>5</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>d676ff08db6e4410d04fa7c748961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wins</element>
+            <position>6</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:32:17</sys_created_on>
+            <sys_id>5e76ff08db6e4410d04fa7c748961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="Default view">f530975fdbf80c504842459d3b961978</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tori2_pool_leagu_leaderboard</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-04 11:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f530975fdbf80c504842459d3b961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tori2_pool_leagu_leaderboard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_ui_section_f530975fdbf80c504842459d3b961978</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-04 11:15:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

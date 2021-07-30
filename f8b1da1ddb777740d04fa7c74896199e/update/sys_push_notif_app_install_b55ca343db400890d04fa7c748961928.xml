@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2019-09-27 11:52:49</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>Gagandeep.jutley</sys_created_by>
+        <sys_created_on>2019-09-27 11:52:49</sys_created_on>
+        <sys_id>b55ca343db400890d04fa7c748961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f_3bC1RGf7A:APA91bGIUkDV3Ar6bgUZvSqiJNwGPXTJaHUMkGQTtf-8x37Aq-FMibgl42rgo_BpdYpwl_7rxj4gBKOy0_J0orp1LHY05b6cyWcJIE0IM0Um2-FSnTr-k3CvqRrH8oDG93j3ue8DbZ-y</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_b55ca343db400890d04fa7c748961928</sys_update_name>
+        <sys_updated_by>Gagandeep.jutley</sys_updated_by>
+        <sys_updated_on>2019-09-27 11:52:49</sys_updated_on>
+        <sys_user_id display_value="">48453902373cef0007771a7943990efd</sys_user_id>
+        <token>f_3bC1RGf7A:APA91bGIUkDV3Ar6bgUZvSqiJNwGPXTJaHUMkGQTtf-8x37Aq-FMibgl42rgo_BpdYpwl_7rxj4gBKOy0_J0orp1LHY05b6cyWcJIE0IM0Um2-FSnTr-k3CvqRrH8oDG93j3ue8DbZ-y</token>
+    </sys_push_notif_app_install>
+</record_update>

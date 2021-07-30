@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Match">fb9fa86adbb088504842459d3b9619f4</application>
+        <filter/>
+        <name>Matches</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_tori2_pool_leagu.match_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-01 15:38:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>739fe86adbb088504842459d3b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Matches</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_ui_module_739fe86adbb088504842459d3b9619ef</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-01 15:38:24</sys_updated_on>
+        <table>x_tori2_pool_leagu_match</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

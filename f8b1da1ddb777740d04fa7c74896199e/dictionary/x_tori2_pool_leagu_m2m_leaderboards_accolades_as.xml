@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pool Leagu M2m Leaderboards Accolades As" max_length="40" name="x_tori2_pool_leagu_m2m_leaderboards_accolades_as" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Accolades Assigned" max_length="32" name="accolades_assigned" reference="x_tori2_pool_leagu_accolades_assigned" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Leaderboard" max_length="32" name="leaderboard" reference="x_tori2_pool_leagu_leaderboard" type="reference"/>
+        <index name="index">
+            <element name="leaderboard"/>
+        </index>
+        <index name="index2">
+            <element name="accolades_assigned"/>
+        </index>
+    </element>
+</database>

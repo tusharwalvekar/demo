@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f193e0f3db3c4c504842459d3b961933</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-05 11:51:47</sys_created_on>
+        <sys_id>47126c73db3c4c504842459d3b96196b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sp_instance_47126c73db3c4c504842459d3b96196b</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-21 16:31:57</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "/pool",
+		"displayValue": "/pool"
+	},
+	"button_text": {
+		"value": "View Leaderboard",
+		"displayValue": "View Leaderboard"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=47126c73db3c4c504842459d3b96196b"/>
+</record_update>

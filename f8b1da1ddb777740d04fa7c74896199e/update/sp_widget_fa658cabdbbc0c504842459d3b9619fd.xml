@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spModal) {
+	var c = this;
+
+	$scope.moreInfo = function () {
+		msg = '<p>Welcome to the Pool League (Still in development)</p>' + 'There are four leagues: Singles, Doubles, Killer and Cut-throat.</p>' +
+			'<p> If the leaderboard has no players, create some by clicking the New Player button. A player will be entered into the Singles, Killers and Cut-throat leaderboard on creation, \n' +
+			'however, if you want to enter the Doubles league you must check the Doubles Team box, which will allow you to assign to two users to a Doubles team.</p>' +
+			'<p> The player at the end of the season(End of the month) with the highest win/loss ratio will win the season and be given an Accolade to showcase it.</p>' +
+			'<p> A new season begins every month and every player will get their scores reset and the players who won the previous season will be shown in the current season.</p>';
+		c.confirmed = "asking";
+		spModal.open({
+			title: 'Information',
+			message: msg
+		}).then(function(confirmed) {
+			c.confirmed = confirmed;
+		})
+	}
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.help-icon {
+  float: left;
+  font-size: 37px;
+  padding-left: 5px;
+  padding-top:3px;
+  color: #39bf87;
+}
+
+
+header {
+  border: #5bc0de solid 3px;
+  width: auto;
+  height: 200px;
+  text-align:center;
+  font-size: 28px;
+  color: #3981bf;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#recent-win {
+  margin: 0 auto;
+}
+
+#new-season {
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+}
+
+#winner {
+  font-size: 24px;
+  color: green;
+}
+
+#loser {
+  font-size: 24px;
+  color: red;
+}
+#game {
+  font-size: 20px;
+}
+
+#date {
+  font-size: 20px;
+}
+
+// Change CSS for mobile view
+@media (max-width:500px) {
+  #header {
+   height: 100px; 
+  }
+  
+  #recent-win {
+    font-size: 18px;
+  }
+  #winner {
+    font-size: 14px;
+  }
+  #loser {
+    font-size: 14px;
+    color: red;
+  }
+  #game {
+    font-size: 14px;
+  }
+
+  #date {
+    font-size: 14px;
+  }
+  #new-season {
+    font-size: 12px;
+  }
+  .header-text {
+    font-size: 18px;
+  }
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>pool_homepage</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>PL - Pool homepage</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	// Returns a Doubles team
+	function getDoublesTeam (team) {
+		var doubleGR = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+		doubleGR.addQuery('sys_id', team);
+		doubleGR.query();
+		if (doubleGR.next()) {
+			return doubleGR.getDisplayValue('player') + ', ' + doubleGR.getDisplayValue('player_2');
+		}
+	}
+
+	// Get latest match played
+	var gr = new GlideRecord('x_tori2_pool_leagu_match');
+	gr.addQuery('state', 'complete');
+	gr.orderByDesc('sys_created_on');
+	gr.query();
+
+	data.match = {};
+
+	if (gr.next()) {
+		var gdt2 = new GlideDateTime(gr.getValue('sys_created_on'));
+		data.match.created = gdt2.getDate().toString().split('-').reverse().join('/');
+		data.match.match_type = gr.getDisplayValue('match_type');
+		data.match.winner = gr.getDisplayValue('winners');
+		data.match.loser = gr.getDisplayValue('losers');
+
+		if (data.match.match_type == 'Doubles') {
+				data.match.winner = getDoublesTeam(gr.getValue('winners'));
+				data.match.loser = getDoublesTeam(gr.getValue('losers'));
+		}
+
+		data.match.winnerCount = gr.getValue('winners').length;
+		data.match.loserCount = gr.getValue('losers').length;
+
+		// Fixed ;) Checks if there are multiple winners		
+		if (data.match.winnerCount == 32) {
+			data.match.winLabel = 'Winner';
+		} else {
+			data.match.winLabel = 'Winners';
+		}
+
+		if (data.match.loserCount == 32) {
+			data.match.loseLabel = 'Loser';
+		} else {
+			data.match.loseLabel = 'Losers';
+		}
+	}
+
+	var gdt = new GlideDateTime();
+	gdt.addMonthsUTC(1);
+	var nextSeason = new GlideDateTime();
+	nextSeason.setDisplayValue(gdt.getYearLocalTime() + "-" + gdt.getMonthLocalTime() + "-" + "01" + " " + gdt.getTime());
+	data.new_season = nextSeason.getDate().toString().split('-').reverse().join('/');
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-04 15:07:57</sys_created_on>
+        <sys_id>fa658cabdbbc0c504842459d3b9619fd</sys_id>
+        <sys_mod_count>185</sys_mod_count>
+        <sys_name>PL - Pool homepage</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sp_widget_fa658cabdbbc0c504842459d3b9619fd</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:40:35</sys_updated_on>
+        <template><![CDATA[<div>
+  <header>
+    <div id="title">
+      <span ng-click="moreInfo()" class="help-icon glyphicon glyphicon-question-sign"></span>
+      <span id="recent-win">Recent Win</span>
+      <span id="new-season">New season starts  {{c.data.new_season}}</span>
+    </div>
+    <hr>
+    <div class="header-text">{{c.data.match.winLabel}}: <span id="winner" >{{c.data.match.winner}}</span></div>
+    <div class="header-text">{{c.data.match.loseLabel}}: <span id="loser" >{{c.data.match.loser}}</span></div>
+    <div id="game">Game: {{c.data.match.match_type}}, Date: {{c.data.match.created}}</div>
+  </header>
+</div>]]></template>
+    </sp_widget>
+</record_update>

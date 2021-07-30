@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tori2_pool_leagu.PLMatch</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>PLMatch</name>
+        <script><![CDATA[var PLMatch = Class.create();
+PLMatch.prototype = {
+	initialize: function () {
+	},
+
+	queryPlayers : function (playersToReturn, playersToUse) {
+		for (var i = 0; i < playersToUse.length; i++) {
+			var boardGR = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+			boardGR.addQuery('sys_id', playersToUse[i].toString());
+			boardGR.query();
+
+			while (boardGR.next()) {
+				playersToReturn += playersToUse[i].toString()  + ',';
+			}
+		}
+		return playersToReturn;
+	},
+
+	/* Returns reference qualifer for fields 'winners, losers', to allow only player
+	from current players in the game to be selected in those fields
+	*/
+	getRelatedPlayers : function (matchType, single1, single2, multiplayers, double1, double2) {
+		var playersToReturn = '';
+		// Killer or Cut-throat
+		if (matchType == 3 || matchType == 4) {
+			multiplayers = multiplayers.split(',');
+			playersToReturn += this.queryPlayers(playersToReturn, multiplayers);
+		}
+
+		// Doubles
+		else if (matchType == 2) {
+			double1 = double1.split(',');
+			double2 = double2.split(',');
+			playersToReturn += this.queryPlayers(playersToReturn, double1);
+			playersToReturn += this.queryPlayers(playersToReturn, double2);
+		}	
+
+		// Singles
+		else if (matchType == 1) {
+			playersToReturn += single1.toString() + ',';
+			playersToReturn += single2.toString();
+		}
+		return 'sys_idIN' +  playersToReturn;
+	},
+	
+	// Adds '1' to the field
+	addScore : function (boardGR, fieldName) {
+		var newScore = parseInt(boardGR.getValue(fieldName)) + 1;
+		boardGR.setValue(fieldName, newScore);
+	},
+
+	// Match is complete, set the score in the Leaderboards for each player
+	matchComplete : function (team, winLose, matchType) {
+		for (var i = 0; i < team.length; i++) {
+			// Find player in the Leaderboard
+			var boardGR = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+			boardGR.addQuery('sys_id', team[i].toString());
+			boardGR.query();
+
+			if (boardGR.next()) {
+				this.addScore(boardGR, 'matches_played');
+				// Singles
+				if (matchType == 1) {
+					this.addScore(boardGR, 'singles_played');
+					if (!winLose) {
+						this.addScore(boardGR, 'singles_lost');
+					} else {
+						this.addScore(boardGR, 'singles_won');
+					}
+				}
+				// Doubles
+				else if(matchType == 2) {
+					this.addScore(boardGR, 'doubles_played');
+					if (!winLose) {
+						this.addScore(boardGR, 'doubles_lost');
+					} else {
+						this.addScore(boardGR, 'doubles_won');
+					}
+				}
+				// Cut-throat
+				else if(matchType == 3) {
+					this.addScore(boardGR, 'cut_throats_played');			
+					if (!winLose) {
+						this.addScore(boardGR, 'cutthroats_lost');	
+					} else {
+						this.addScore(boardGR, 'cuthroats_won');
+					}
+				}
+				// Killers
+				else if(matchType == 4) {
+					this.addScore(boardGR, 'killers_played');		
+					if (!winLose) {
+						this.addScore(boardGR, 'killers_lost');
+					} else {
+						this.addScore(boardGR, 'killers_won');
+					}
+				}
+				
+				if (winLose) {
+					this.addScore(boardGR, 'wins');
+				} else {
+					this.addScore(boardGR, 'losses');
+				}
+				
+				boardGR.update();
+			}
+		}
+	},
+
+	type: 'PLMatch'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-04 13:27:42</sys_created_on>
+        <sys_id>758c6f9fdb3c0c504842459d3b961977</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>PLMatch</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_script_include_758c6f9fdb3c0c504842459d3b961977</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-21 12:02:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

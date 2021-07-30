@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tori2_pool_leagu.PLLeaderboard</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>PLLeaderboard</name>
+        <script><![CDATA[var PLLeaderboard = Class.create();
+PLLeaderboard.prototype = {
+	initialize: function() {
+	},
+
+	// Create a season-winning Accolade for a user
+	setSeasonWinner : function (league, player) {
+		var gr = new GlideRecord('x_tori2_pool_leagu_accolades_assigned');
+		gr.initialize();
+		gr.setValue('accolade', league);
+		gr.setValue('player', player);
+		gr.insert();
+	},
+
+	// Gets the season winner for a specified league
+	getSeasonWinner : function (fieldName) {
+		var gr = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+		gr.orderByDesc(fieldName);
+		gr.setLimit(1);
+		gr.query();
+
+		if (gr.next()) {
+			return gr.getUniqueValue();
+		}
+	},
+	
+	// Deactivate Season-winning Accolades from two or more seasons ago, when the new season starts
+	deactivateSeasonWinningAccolades : function () {
+		var gr = new GlideRecord('x_tori2_pool_leagu_accolades_assigned');
+		gr.addEncodedQuery('sys_created_on<javascript:gs.beginningOfThisMonth()');
+		gr.addQuery('accolade.season_accolade', true);
+		gr.addActiveQuery(true);
+		gr.query();
+
+		while (gr.next()) {
+			gr.setValue('active', false);
+			gr.update();
+		}
+	},
+
+	// Deactivates all non-season winning Accolades earned just before the new season starts
+	deactivateSeasonAccolades : function (player) {
+		var gr = new GlideRecord('x_tori2_pool_leagu_accolades_assigned');
+		gr.addQuery('player', player);
+		gr.addActiveQuery(true);
+		gr.addQuery('accolade.season_accolade', false);
+		gr.query();
+
+		while (gr.next()) {
+			gr.setValue('active', false);
+			gr.update();
+		}
+	},
+
+	// Clear all of the scores on the leaderboard, used for a new season
+	clearLeaderboard : function () {
+		this.deactivateSeasonWinningAccolades();
+
+		var gr = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+		gr.query();
+		while (gr.next()) {
+			this.deactivateSeasonAccolades(gr.getUniqueValue());
+
+			gr.setValue('singles_won', 0);
+			gr.setValue('singles_lost', 0);
+			gr.setValue('singles_win_ratio', '0.00');
+			gr.setValue('singles_played', 0);
+
+			gr.setValue('doubles_won', 0);
+			gr.setValue('doubles_wins_ratio', '0.00');
+			gr.setValue('doubles_lost', 0);
+			gr.setValue('doubles_played', 0);
+
+			gr.setValue('cuthroats_won', 0);
+			gr.setValue('cutthroats_lost', 0);
+			gr.setValue('cutthroats_win_ratio', '0.00');
+			gr.setValue('cut_throats_played', 0);
+
+			gr.setValue('killers_won', 0);
+			gr.setValue('killers_lost', 0);
+			gr.setValue('killers_won_ratio', '0.00');
+			gr.setValue('killers_played', 0);
+
+			gr.setValue('losses', 0);
+			gr.setValue('wins', 0);
+			gr.setValue('matches_played', 0);
+			gr.setValue('total_score', 0);
+			gr.update();
+		}
+	},
+
+	type: 'PLLeaderboard'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-12-02 15:10:42</sys_created_on>
+        <sys_id>c39150a4dbe104104842459d3b9619f6</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>PLLeaderboard</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_script_include_c39150a4dbe104104842459d3b9619f6</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-06 11:20:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

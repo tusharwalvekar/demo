@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field>sys_created_on</display_field>
+        <field_list>sys_updated_on,state,match_type,losers,winners</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3bdedcbfdbf84c504842459d3b96191e</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-05 11:37:46</sys_created_on>
+        <sys_id>61ee10bfdbf84c504842459d3b96199f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>All Matches</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sp_instance_table_61ee10bfdbf84c504842459d3b96199f</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-05 16:13:52</sys_updated_on>
+        <table>x_tori2_pool_leagu_match</table>
+        <title>All Matches</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=61ee10bfdbf84c504842459d3b96199f"/>
+</record_update>

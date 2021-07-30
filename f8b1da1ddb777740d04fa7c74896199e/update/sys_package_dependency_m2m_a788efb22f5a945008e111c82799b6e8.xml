@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">4458c659983100107f2c2ed01a1f1655</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-02 09:30:14</sys_created_on>
+        <sys_id>a788efb22f5a945008e111c82799b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-02 09:30:14</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

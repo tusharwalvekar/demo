@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Pool Leagu M2m Leaderboards Accolades As" language="en" table="x_tori2_pool_leagu_m2m_leaderboards_accolades_as">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Pool Leagu M2m Leaderboards Accolades As</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_m2m_leaderboards_accolades_as</name>
+            <plural>Pool Leagu M2m Leaderboards Accolades As</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 14:54:52</sys_created_on>
+            <sys_id>4fdbde20db15c8104842459d3b96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pool Leagu M2m Leaderboards Accolades As</sys_name>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_documentation_x_tori2_pool_leagu_m2m_leaderboards_accolades_as__en</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 14:54:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

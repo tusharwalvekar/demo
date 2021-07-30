@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Accolades" max_length="40" name="x_tori2_pool_leagu_accolades" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Accolade icon" max_length="40" name="accolade_icon" type="user_image"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Tick if this is an accolade for winning a season" label="Season accolade" max_length="40" name="season_accolade" type="boolean"/>
+    </element>
+</database>

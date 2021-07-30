@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Match" max_length="40" name="x_tori2_pool_leagu_match" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Loser" max_length="4000" name="losers" reference="x_tori2_pool_leagu_leaderboard" reference_qual="javascript: new PLMatch().getRelatedPlayers(current.match_type,  current.player_one, current.player_two, current.players, current.team_one, current.team_two);" type="glide_list" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Match Type" mandatory="true" max_length="40" name="match_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Singles" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Doubles" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Cut-throat" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Killer" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Multi-players" max_length="4000" name="players" reference="x_tori2_pool_leagu_leaderboard" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Player one" max_length="32" name="player_one" reference="x_tori2_pool_leagu_leaderboard" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Player two" max_length="32" name="player_two" reference="x_tori2_pool_leagu_leaderboard" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="In progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_ac_columns=player;player_2;,ref_auto_completer=AJAXTableCompleter,​​ref_ac_columns_search=true​" label="Team one" max_length="32" name="team_one" reference="x_tori2_pool_leagu_leaderboard" reference_qual="doubles_team=true^EQ" reference_qual_condition="doubles_team=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_ac_columns=player;player_2;,ref_auto_completer=AJAXTableCompleter,​​ref_ac_columns_search=true​" label="Team two" max_length="32" name="team_two" reference="x_tori2_pool_leagu_leaderboard" reference_qual="doubles_team=true^EQ" reference_qual_condition="doubles_team=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,ref_ac_columns=player;player_2;,ref_auto_completer=AJAXTableCompleter,slushbucket_ref_no_expand=true,​​ref_ac_columns_search=true​" label="Winner" max_length="4000" name="winners" reference="x_tori2_pool_leagu_leaderboard" reference_qual="javascript: new PLMatch().getRelatedPlayers(current.match_type,  current.player_one, current.player_two, current.players, current.team_one, current.team_two);" type="glide_list" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="team_one"/>
+        </index>
+        <index name="index2">
+            <element name="player_one"/>
+        </index>
+        <index name="index3">
+            <element name="team_two"/>
+        </index>
+        <index name="index4">
+            <element name="player_two"/>
+        </index>
+    </element>
+</database>

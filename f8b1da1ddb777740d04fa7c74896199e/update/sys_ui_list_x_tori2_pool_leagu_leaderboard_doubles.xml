@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_tori2_pool_leagu_leaderboard" version="2" view="doubles">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>player</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>bae9334cdb6e4410d04fa7c748961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>player_2</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>32e9334cdb6e4410d04fa7c74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doubles_played</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>b2e9334cdb6e4410d04fa7c74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doubles_lost</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>36e9334cdb6e4410d04fa7c74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doubles_won</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>b6e9334cdb6e4410d04fa7c74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>doubles_wins_ratio</element>
+            <list_id display_value="x_tori2_pool_leagu_leaderboard" element="NULL" name="x_tori2_pool_leagu_leaderboard" parent="NULL" relationship="NULL" sys_domain="global" view="4fb9a394db8dcc504842459d3b96191b">fee9334cdb6e4410d04fa7c748961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_id>3ae9334cdb6e4410d04fa7c74896196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_tori2_pool_leagu_leaderboard</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2020-01-20 11:47:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee9334cdb6e4410d04fa7c748961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tori2_pool_leagu_leaderboard</sys_name>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_ui_list_x_tori2_pool_leagu_leaderboard_doubles</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2020-01-20 11:47:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Doubles" name="doubles">4fb9a394db8dcc504842459d3b96191b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

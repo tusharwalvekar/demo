@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Pool League">7b429a5ddb777740d04fa7c74896197e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Leaderboards</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_tori2_pool_leagu_leaderboard</name>
+        <order>510</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_tori2_pool_leagu.leaderboard_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-01 15:35:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea0fec2adbb088504842459d3b961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Leaderboards</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_app_module_ea0fec2adbb088504842459d3b961988</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:54:31</sys_updated_on>
+        <timeline_page/>
+        <title>Leaderboards</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6485e9a8dbe284104842459d3b9619d4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="Pool league players" name="Pool league players">864529a8dbe284104842459d3b961947</group>
+        <inherits>true</inherits>
+        <role display_value="x_tori2_pool_leagu.cut_throat_user" name="x_tori2_pool_leagu.cut_throat_user">fb42da1ddb777740d04fa7c7489619a5</role>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2020-01-21 14:15:53</sys_created_on>
+        <sys_id>6485e9a8dbe284104842459d3b9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:15:53</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2020-01-21 14:16:50</sys_created_on>
+        <sys_id>eeb5ada8dbe284104842459d3b96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 21-01-2020 14:15:53</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_metadata_link_eeb5ada8dbe284104842459d3b96193c</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-21 14:16:50</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

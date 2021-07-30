@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_tori2_pool_leagu_accolades</description>
+        <name>x_tori2_pool_leagu_accolades</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-20 12:25:16</sys_created_on>
+        <sys_id>3399b5e4db91c8104842459d3b9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tori2_pool_leagu_accolades</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_security_acl_3399b5e4db91c8104842459d3b9619de</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-20 12:25:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

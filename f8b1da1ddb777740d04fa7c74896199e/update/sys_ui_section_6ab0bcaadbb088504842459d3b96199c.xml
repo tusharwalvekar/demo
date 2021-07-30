@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="6ab0bcaadbb088504842459d3b96199c" sys_domain="global" table="x_tori2_pool_leagu_match" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>match_type</element>
+            <position>0</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>bd273062dbf088504842459d3b9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>1</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>35273062dbf088504842459d3b9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>players</element>
+            <position>2</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>b9273062dbf088504842459d3b9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player_one</element>
+            <position>3</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>31273062dbf088504842459d3b9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player_two</element>
+            <position>4</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>b5273062dbf088504842459d3b9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team_one</element>
+            <position>5</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>3d273062dbf088504842459d3b9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team_two</element>
+            <position>6</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>b1273062dbf088504842459d3b9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>winners</element>
+            <position>7</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>39273062dbf088504842459d3b9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>losers</element>
+            <position>8</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 16:11:19</sys_created_on>
+            <sys_id>bd273062dbf088504842459d3b9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_match" sys_domain="global" view="Default view">6ab0bcaadbb088504842459d3b96199c</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 16:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tori2_pool_leagu_match</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ab0bcaadbb088504842459d3b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tori2_pool_leagu_match</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_ui_section_6ab0bcaadbb088504842459d3b96199c</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:43:15</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

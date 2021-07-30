@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Pool League">bf429a5ddb777740d04fa7c748961983</application>
+        <filter/>
+        <name>Cut Throats</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_tori2_pool_leagu.cut_throat_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>Gagandeep.jutley</sys_created_by>
+        <sys_created_on>2019-09-09 08:34:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf429a5ddb777740d04fa7c748961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cut Throats</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_ui_module_bf429a5ddb777740d04fa7c748961985</sys_update_name>
+        <sys_updated_by>Gagandeep.jutley</sys_updated_by>
+        <sys_updated_on>2019-09-09 08:34:24</sys_updated_on>
+        <table>x_tori2_pool_leagu_cut_throat</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

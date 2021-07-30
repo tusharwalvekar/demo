@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="accolades_assigned" label="Accolades Assigned" language="en" table="x_tori2_pool_leagu_m2m_leaderboards_accolades_as">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>accolades_assigned</element>
+            <help/>
+            <hint/>
+            <label>Accolades Assigned</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_m2m_leaderboards_accolades_as</name>
+            <plural>Accolades Assigned</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 14:54:52</sys_created_on>
+            <sys_id>43db1660db15c8104842459d3b9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accolades Assigned</sys_name>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_documentation_x_tori2_pool_leagu_m2m_leaderboards_accolades_as_accolades_assigned_en</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 14:54:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

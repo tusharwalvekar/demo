@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_tori2_pool_leagu_accolades" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_tori2_pool_leagu_accolades" element="NULL" name="x_tori2_pool_leagu_accolades" parent="NULL" relationship="NULL" sys_domain="global" view="73570251983100107f2c2ed01a1f16bc">ab7b9a20db15c8104842459d3b9619e1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 14:53:16</sys_created_on>
+            <sys_id>e37b9a20db15c8104842459d3b9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 14:53:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_tori2_pool_leagu_accolades</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 14:53:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab7b9a20db15c8104842459d3b9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tori2_pool_leagu_accolades</sys_name>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_ui_list_x_tori2_pool_leagu_accolades_sys_ref_list</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 14:53:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">73570251983100107f2c2ed01a1f16bc</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

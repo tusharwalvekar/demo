@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="pool_homepage">bbb40c2bdbbc0c504842459d3b961961</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2019-11-04 15:03:50</sys_created_on>
+        <sys_id>5664486bdbbc0c504842459d3b961969</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Pool League</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sp_portal_5664486bdbbc0c504842459d3b961969</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-11-05 11:31:37</sys_updated_on>
+        <theme/>
+        <title>Pool League</title>
+        <ts_index_group/>
+        <url_suffix>pool</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=5664486bdbbc0c504842459d3b961969"/>
+</record_update>

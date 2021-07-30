@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5f99a794db8dcc504842459d3b9619fd" sys_domain="global" table="x_tori2_pool_leagu_leaderboard" version="3" view="singles">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player</element>
+            <position>0</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>a0ced224db15c8104842459d3b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>matches_played</element>
+            <position>1</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>28ced224db15c8104842459d3b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>acced224db15c8104842459d3b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>losses</element>
+            <position>3</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>24ced224db15c8104842459d3b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wins</element>
+            <position>4</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>a8ced224db15c8104842459d3b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_score</element>
+            <position>5</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>20ced224db15c8104842459d3b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>a4ced224db15c8104842459d3b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>2cced224db15c8104842459d3b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>singles_won</element>
+            <position>8</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>a0ced224db15c8104842459d3b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>28ced224db15c8104842459d3b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>singles_lost</element>
+            <position>10</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>e8ce1624db15c8104842459d3b9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>singles_loss_ratio</element>
+            <position>11</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>60ce1624db15c8104842459d3b9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>singles_win_ratio</element>
+            <position>12</position>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-20 15:07:32</sys_created_on>
+            <sys_id>e4ce1624db15c8104842459d3b9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tori2_pool_leagu_leaderboard" sys_domain="global" view="1b99a394db8dcc504842459d3b961998">5f99a794db8dcc504842459d3b9619fd</sys_ui_section>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-20 15:07:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tori2_pool_leagu_leaderboard</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-07 15:40:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f99a794db8dcc504842459d3b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tori2_pool_leagu_leaderboard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_ui_section_5f99a794db8dcc504842459d3b9619fd</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-07 15:40:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Singles" name="singles">1b99a394db8dcc504842459d3b961998</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

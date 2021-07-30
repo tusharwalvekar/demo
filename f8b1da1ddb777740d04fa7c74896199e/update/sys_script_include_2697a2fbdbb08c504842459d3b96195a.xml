@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tori2_pool_leagu.PoolMultiPlayers</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>PoolMultiPlayers</name>
+        <script><![CDATA[var PoolMultiPlayers = Class.create();
+PoolMultiPlayers.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getLosers : function () {
+		var players = this.getParameter("sysparm_players");
+		var winner = this.getParameter("sysparm_winner");
+		var playerOne = this.getParameter("sysparm_playerone");
+		var playerTwo = this.getParameter("sysparm_playertwo");
+		var teamOne = this.getParameter("sysparm_teamone");
+		var teamTwo = this.getParameter("sysparm_teamtwo");
+		
+		var playersArray = players.split(',');
+		var winnerArray = winner.split(',');
+		var playerOneArray = playerOne.split(',');
+		var playerTwoArray = playerTwo.split(',');
+		var teamOneArray = teamOne.split(',');
+		var teamTwoArray = teamTwo.split(',');
+		
+		var losers = [];
+
+		for (var i = 0; i < playersArray.length; i++) {
+			if (winnerArray.indexOf(playersArray[i]) == -1) {
+				gs.info('[PoolMultiPlayers] playersArray[i]: ' + playersArray[i]);
+				losers.push(playersArray[i]);
+			}
+		}
+		return JSON.stringify(losers);
+	},
+    type: 'PoolMultiPlayers'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Puja.Pramanik</sys_created_by>
+        <sys_created_on>2019-11-05 21:48:13</sys_created_on>
+        <sys_id>2697a2fbdbb08c504842459d3b96195a</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>PoolMultiPlayers</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_script_include_2697a2fbdbb08c504842459d3b96195a</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2019-12-04 10:01:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

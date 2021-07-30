@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="match_type" table="x_tori2_pool_leagu_match" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>match_type</element>
+            <name>x_tori2_pool_leagu_match</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:39:24</sys_created_on>
+            <sys_id>0d50e6f52f21101008e111c82799b6d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>match_type</sys_name>
+            <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+            <sys_update_name>sys_choice_x_tori2_pool_leagu_match_match_type</sys_update_name>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:39:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>match_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Singles</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_match</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:39:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfcfec6adbb088504842459d3b961984</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:39:33</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>match_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Doubles</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_match</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96efe06adbb088504842459d3b961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:39:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>match_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cut-throat</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_match</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36ffec6adbb088504842459d3b961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:39:59</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>match_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Killer</label>
+            <language>en</language>
+            <name>x_tori2_pool_leagu_match</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Keir.Stannard</sys_created_by>
+            <sys_created_on>2019-11-01 15:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3400bc6adbb088504842459d3b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Keir.Stannard</sys_updated_by>
+            <sys_updated_on>2019-11-01 15:40:07</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

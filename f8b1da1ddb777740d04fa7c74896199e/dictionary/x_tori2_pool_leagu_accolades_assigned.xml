@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Accolades Recieved" max_length="40" name="x_tori2_pool_leagu_accolades_assigned" sizeclass="52" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Accolade" max_length="32" name="accolade" reference="x_tori2_pool_leagu_accolades" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Player" max_length="32" name="player" reference="x_tori2_pool_leagu_leaderboard" type="reference"/>
+        <index name="index">
+            <element name="accolade"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+    </element>
+</database>

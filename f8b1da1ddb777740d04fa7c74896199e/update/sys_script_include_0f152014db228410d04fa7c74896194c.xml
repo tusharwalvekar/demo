@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tori2_pool_leagu.DoublesMatchAJAX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DoublesMatchAJAX</name>
+        <script><![CDATA[var DoublesMatchAJAX = Class.create();
+DoublesMatchAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	// returns a Doubles team
+	getTeam: function() {
+		var team = this.getParameter('sysparm_team');
+		var otherTeam = this.getParameter('sysparm_otherTeam') || null;
+		var otherTeamOne = null;
+		var otherTeamTwo = null;
+		var result = {};
+
+		if (otherTeam != null) {
+			var playerCheckGR = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+			playerCheckGR.addQuery('sys_id', otherTeam);
+			playerCheckGR.query();
+
+			if (playerCheckGR.next()) {
+				otherTeamOne = playerCheckGR.player;
+				otherTeamTwo = playerCheckGR.player_2;
+			}
+		}
+
+		var gr = new GlideRecord('x_tori2_pool_leagu_leaderboard');
+		gr.addQuery('sys_id', team);
+		gr.query();
+		if (gr.next()) {
+			if (otherTeamOne == gr.getValue('player') || otherTeamOne == gr.getValue('player_2') 
+				|| otherTeamTwo == gr.getValue('player') || otherTeamTwo == gr.getValue('player_2')) {
+				result.duplicate = true;
+			}
+			else {
+				result.team  = team;
+				result.playerOne = gr.getDisplayValue('player');
+				result.playerTwo = gr.getDisplayValue('player_2');
+			}
+		}
+		return JSON.stringify(result);
+	},
+
+
+	type: 'DoublesMatchAJAX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Keir.Stannard</sys_created_by>
+        <sys_created_on>2020-01-20 14:59:30</sys_created_on>
+        <sys_id>0f152014db228410d04fa7c74896194c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>DoublesMatchAJAX</sys_name>
+        <sys_package display_value="Pool League" source="x_tori2_pool_leagu">f8b1da1ddb777740d04fa7c74896199e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pool League">f8b1da1ddb777740d04fa7c74896199e</sys_scope>
+        <sys_update_name>sys_script_include_0f152014db228410d04fa7c74896194c</sys_update_name>
+        <sys_updated_by>Keir.Stannard</sys_updated_by>
+        <sys_updated_on>2020-01-21 11:51:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

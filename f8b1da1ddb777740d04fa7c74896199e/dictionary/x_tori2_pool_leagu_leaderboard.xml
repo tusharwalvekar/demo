@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leaderboard" max_length="40" name="x_tori2_pool_leagu_leaderboard" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="0" label="Cuthroats won" max_length="40" name="cuthroats_won" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Cutthroats lost" max_length="40" name="cutthroats_lost" read_only="true" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;var ratio = parseFloat(parseInt(current.cuthroats_won) / parseInt(current.cutthroats_lost));&#10;&#9;if (isNaN(ratio)) {&#10;&#9;&#9;return '0.00';&#10;&#9;}&#10;&#9;if (current.singles_lost == 0) {&#10;&#9;&#9;return parseInt(current.cuthroats_won).toFixed(2) + '';&#10;&#9;}&#10;&#9;return ratio.toFixed(2);&#10;})(current);" label="Cutthroats win/loss ratio" max_length="40" name="cutthroats_win_ratio" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Cut-throats played" max_length="40" name="cut_throats_played" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Doubles lost" max_length="40" name="doubles_lost" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Doubles played" max_length="40" name="doubles_played" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" hint="Set to true if you want to create a Doubles team" label="Doubles team" max_length="40" name="doubles_team" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;var ratio = parseFloat(parseInt(current.doubles_won) / parseInt(current.doubles_lost));&#10;&#9;if (isNaN(ratio)) {&#10;&#9;&#9;return '0.00';&#10;&#9;}&#10;&#9;if (current.doubles_lost == 0) {&#10;&#9;&#9;return parseInt(current.doubles_won).toFixed(2) + '';&#10;&#9;}&#10;&#9;return ratio.toFixed(2);&#10;})(current);" label="Doubles wins/loss ratio" max_length="40" name="doubles_wins_ratio" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Doubles won" max_length="40" name="doubles_won" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Killers lost" max_length="40" name="killers_lost" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Killers played" max_length="40" name="killers_played" read_only="true" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;var ratio = parseFloat(parseInt(current.killers_won) / parseInt(current.killers_lost));&#10;&#9;if (isNaN(ratio)) {&#10;&#9;&#9;return '0.00';&#10;&#9;}&#10;&#9;if (current.killers_lost == 0) {&#10;&#9;&#9;return parseInt(current.killers_won).toFixed(2) + '';&#10;&#9;}&#10;&#9;return ratio.toFixed(2);&#10;})(current);" label="Killers win/loss ratio" max_length="40" name="killers_win_ratio" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Killers won" max_length="40" name="killers_won" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Total losses" max_length="40" name="losses" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#10;})(current);" default="0" label="Total matches played" max_length="40" name="matches_played" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Player" mandatory="true" max_length="32" name="player" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Player 2" max_length="32" name="player_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Singles lost" max_length="40" name="singles_lost" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Singles played" max_length="40" name="singles_played" read_only="true" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;var ratio = parseFloat(parseInt(current.singles_won) / parseInt(current.singles_lost));&#10;&#9;if (isNaN(ratio)) {&#10;&#9;&#9;return '0.00';&#10;&#9;}&#10;&#9;if (current.singles_lost == 0) {&#10;&#9;&#9;return parseInt(current.singles_won).toFixed(2) + '';&#10;&#9;}&#10;&#9;return ratio.toFixed(2);&#10;})(current);" label="Singles win/loss ratio" max_length="100" name="singles_win_ratio" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Singles won" max_length="40" name="singles_won" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Total score" max_length="40" name="total_score" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Total wins" max_length="40" name="wins" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="player_2"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+    </element>
+</database>
